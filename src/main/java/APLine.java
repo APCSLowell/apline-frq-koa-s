@@ -2,11 +2,11 @@ public class APLine
 {
   private int a, b, c;
   private double slope;
-  APLine(int 1, int 2, int 3)
+  public APLine(int one, int two, int three)
   {
-    a=1;
-    b=2;
-    c=3;
+    a=one;
+    b=two;
+    c=three;
     slope = -((double)(a))/b;
   }
   public int getSlope()
