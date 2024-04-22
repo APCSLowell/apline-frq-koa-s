@@ -11,7 +11,7 @@ public class APLine
     c=three;
     slope = -((double)(a))/b;
   }
-  public int getSlope()
+  public double getSlope()
   {
     return slope;
   }
