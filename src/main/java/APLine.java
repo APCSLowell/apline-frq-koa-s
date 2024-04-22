@@ -1,6 +1,8 @@
 public class APLine
 {
-  private int a, b, c;
+  private int a; 
+  private int b;
+  private int c;
   private double slope;
   public APLine(int one, int two, int three)
   {
